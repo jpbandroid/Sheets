@@ -7,4 +7,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Fluent.Ribbon" Version="10.0.4" />
+    <PackageReference Include="unvell.ReoGridWPF.dll" Version="3.0.0" />
+  </ItemGroup>
+
 </Project>
