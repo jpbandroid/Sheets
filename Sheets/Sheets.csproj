@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <PackageReference Include="Fluent.Ribbon" Version="10.0.4" />
+    <PackageReference Include="ModernWpf.Toolkit" Version="0.1.0" />
+    <PackageReference Include="ModernWpfUI" Version="0.9.6" />
     <PackageReference Include="unvell.ReoGridWPF.dll" Version="3.0.0" />
   </ItemGroup>
 
