@@ -4,9 +4,18 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sheets"
+        xmlns:rg="clr-namespace:unvell.ReoGrid;assembly=unvell.ReoGrid"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        xmlns:Fluent="urn:fluent-ribbon"
+        Title="MainWindow">
+    <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Fluent:Ribbon x:Name="ribbon">
+            <Fluent:RibbonTabItem Header="Home">
+                <Fluent:RibbonGroupBox Name="helloworld"/>
+            </Fluent:RibbonTabItem>
+        </Fluent:Ribbon>
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <rg:ReoGridControl x:Name="spreadsheet"></rg:ReoGridControl>
+        </Grid>
+    </StackPanel>
 </Window>

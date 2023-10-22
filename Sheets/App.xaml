@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:Sheets"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
-    </Application.Resources>
+        <!-- Attach default Theme -->
+            <ResourceDictionary Source="pack://application:,,,/Fluent;Component/Themes/Generic.xaml" />
+        </Application.Resources>
 </Application>
